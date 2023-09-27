@@ -13,7 +13,7 @@ today13am20 = currentTime.replace(hour=13, minute=20, second=0, microsecond=0)
 today15am05 = currentTime.replace(hour=15, minute=5, second=0, microsecond=0)
 index = 0
 if currentTime < today8am:
-    index = 1
+    index = 0
 elif today9am35 < currentTime < today11am20:
     index = 1
 elif today11am20 < currentTime < today13am20:
